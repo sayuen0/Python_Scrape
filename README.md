@@ -7,7 +7,7 @@ python3 getNikkeiHeikin.py
 *始値  
 *高値  
 *安値  
-を取得し、csvに上書きします。
+を取得し、CSV形式で追記をしてゆきます。
 
 
 ```
