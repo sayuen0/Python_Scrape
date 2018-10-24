@@ -40,7 +40,7 @@ for tag in span:
         pass
         #passは何もしない
 
-nikkei_heikin ="日経平均:"+nikkei_heikin
+#nikkei_heikin ="日経平均:"+nikkei_heikin
 #参考ではこれを1時間おきに取得して自動でcsv書き込みをしていたけど、ここでは一時的に
 #株価、始値、高値、安値をセットで記録するにとどめる。
 
@@ -63,9 +63,9 @@ for tag in dl:
     except:
         pass
 
-nikkei_hajimene = "日経始値:"+nikkei_hajimene
-nikkei_takane= "日経高値:"+nikkei_takane
-nikkei_yasune="日経安値:"+nikkei_yasune
+# nikkei_hajimene = "日経始値:"+nikkei_hajimene
+# nikkei_takane= "日経高値:"+nikkei_takane
+# nikkei_yasune="日経安値:"+nikkei_yasune
 
 # 取得できたのでこれをcsvに書き込む
 
